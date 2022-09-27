@@ -1,41 +1,121 @@
 {
     "name": "Jonas Stettner",
-    "tagline": "Graduate Student in Social and Economic Data Science",
-    "photo_file": "photo",
+    "tagline": "Graduate Student in Social Data Science",
+    "photo": "photo",
     "email": "mail@jstet.net",
     "homepage": "jstet.net",
     "twitter": "@jstet_net",
     "github": "jstet",
-    "cvevents": [
+    "work_history": [
         {
             "position": "Student Assistant",
             "place": "University of Konstanz",
             "time": "February 2022 - ongoing",
-            "location": "Konstanz",
             "bullet_points": [
                 "Programming online experiments with OTree",
                 "Setting up servers for online experiments",
-                "Working with Pupil Labs Core Eyetracker"
+                "Working with the Pupil Labs Core eyetracker"
             ]
         },
         {
             "position": "Guest Scientist",
             "place": "Potsdam Institute for Climate Impact Research",
             "time": "December 2020 - August 2021",
-            "location": "Potsdam",
             "bullet_points": [
-                "Writing Research Reports",
-                "Presenting Methods"
+                "Assisting  Prof. Dr. Helga Weisz in her work for the International Resource Panel",
+                "Writing research reports"
             ]
         },
         {
             "position": "Intern",
             "place": "Potsdam Institute for Climate Impact Research",
             "time": "October 2020 - November 2021",
-            "location": "Potsdam",
+            "bullet_points": []
+        }
+    ],
+    "volunteering": [
+        {
+            "position": "Local Chapter Head",
+            "place": "CorrelAidX Konstanz",
+            "time": "June 2022 - ongoing",
+            "bullet_points": []
+        }
+    ],
+    "educations": [
+        {
+            "degree": "M.Sc. Social and Economic Data Science",
+            "place": "University of Konstanz",
+            "time": "WS 2021 - ongoing",
+            "bullet_points": []
+        },
+        {
+            "degree": "B.A. Governance and Public Policy",
+            "place": "University of Passau",
+            "time": "SS 2017 - WS 2020/21",
             "bullet_points": [
-                
+                "Final Grade: 1.7",
+                "Thesis: \"The Discursive Contruction of Reality\""
+            ]
+        },
+        {
+            "degree": "Philosophy Certificate",
+            "place": "University of Passau",
+            "time": "WS 2018 - WS 2019",
+            "bullet_points": [
+                "Final Grade: 1.7",
+                "30 ECTS"
+            ]
+        },
+        {
+            "degree": "General Qualification for University Entrance",
+            "place": "Evangelisches Gymnasium Siegen-Weidenau",
+            "time": "2009-2016",
+            "bullet_points": [
+                "Final Grade: 2.2"
             ]
         }
+    ],
+    "skills": [
+        {
+            "kind": "Programming Languages",
+            "bullet_points": [
+                "Python",
+                "JavaScript", 
+                "R"
+            ]
+        },
+        {
+            "kind": "Web Development",
+            "bullet_points": [
+                "Svelte",
+                "SvelteKit",
+                "OTree"
+            ]
+        },
+        {
+            "kind": "System Administration",
+            "bullet_points": [
+                "Ansible",
+                "Docker"
+            ]
+        },
+        {
+            "kind": "Others",
+            "bullet_points": [
+                "Bash",
+                "Linux"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "German",
+            "proficiency": 5
+        },
+        {
+            "language": "English",
+            "proficiency": 4
+        }
     ]
+    
 }
