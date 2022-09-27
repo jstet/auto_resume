@@ -129,11 +129,14 @@
 %$ for cvevent in cvevents $%
 
 \cvevent{$$cvevent.position$$}{$$cvevent.place$$}{$$cvevent.time$$}{$$cvevent.location$$}
+
+%$ if cvevent.bullet_points is defined and cvevent.bullet_points|length > 0$%
 \begin{itemize}
 %$ for bullet_point in cvevent.bullet_points $%
 \item $$bullet_point$$
 %$ endfor $%
 \end{itemize}
+%$ endif $%
 
 \divider
 

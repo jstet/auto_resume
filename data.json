@@ -19,14 +19,22 @@
             ]
         },
         {
-            "position": "Student Assistant",
-            "place": "University of Konstanz",
-            "time": "February 2022 - ongoing",
-            "location": "Konstanz",
+            "position": "Guest Scientist",
+            "place": "Potsdam Institute for Climate Impact Research",
+            "time": "December 2020 - August 2021",
+            "location": "Potsdam",
             "bullet_points": [
-                "Programming online experiments with OTree",
-                "Setting up servers for online experiments",
-                "Working with Pupil Labs Core Eyetracker"
+                "Writing Research Reports",
+                "Presenting Methods"
+            ]
+        },
+        {
+            "position": "Intern",
+            "place": "Potsdam Institute for Climate Impact Research",
+            "time": "October 2020 - November 2021",
+            "location": "Potsdam",
+            "bullet_points": [
+                
             ]
         }
     ]
