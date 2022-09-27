@@ -77,34 +77,24 @@
     ],
     "skills": [
         {
+            "fa": "faKeyboard",
             "kind": "Programming Languages",
-            "bullet_points": [
-                "Python",
-                "JavaScript", 
-                "R"
-            ]
+            "list": "Python, JavaScript, R, SQL"
         },
-        {
+        {   
+            "fa": "faWindowMaximize[regular] ",
             "kind": "Web Development",
-            "bullet_points": [
-                "Svelte",
-                "SvelteKit",
-                "OTree"
-            ]
+            "list": "Svelte, SvelteKit, OTree"
         },
-        {
-            "kind": "System Administration",
-            "bullet_points": [
-                "Ansible",
-                "Docker"
-            ]
+        {   
+            "fa": "faServer",
+            "kind": "Server and Cloud Administration",
+            "list": "Ansible, Docker"
         },
-        {
+        {   
+            "fa": "faPlus",
             "kind": "Others",
-            "bullet_points": [
-                "Bash",
-                "Linux"
-            ]
+            "list": "Bash"
         }
     ],
     "languages": [
@@ -117,5 +107,4 @@
             "proficiency": 4
         }
     ]
-    
 }

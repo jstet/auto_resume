@@ -81,8 +81,9 @@
         \end{itemize}
     %$ endif $%
 
-    \divider
-
+    %$if not loop.last$%
+        \divider
+    %$ endif $%
 %$ endfor $%
 
 \cvsection{Volunteering}
@@ -99,26 +100,20 @@
         \end{itemize}
     %$ endif $%
 
+    %$if not loop.last$%
     \divider
+    %$ endif $%
 
 %$ endfor $%
 
 \cvsection{Skills}
-
 %$ for skill in skills $%
+    \cvachievement{\$$skill.fa$$}{$$skill.kind$$}{$$skill.list$$}
 
-\cvevent{$$skill.kind$$}{}{}{}
-
-%$ if skill.bullet_points is defined and skill.bullet_points|length > 0$%
-    \begin{itemize}
-    %$ for bullet_point in skill.bullet_points $%
-        \item $$bullet_point$$
-    %$ endfor $%
-    \end{itemize}
-%$ endif $%
-
-\divider
-
+    %$if not loop.last$%
+    \divider
+    %$ endif $%
+    
 %$ endfor $%
 
 \switchcolumn
@@ -127,25 +122,27 @@
 
 %$ for education in educations $%
 
-\cvevent{$$education.degree$$}{$$education.place$$}{$$education.time$$}{}
+    \cvevent{$$education.degree$$}{$$education.place$$}{$$education.time$$}{}
 
-%$ if education.bullet_points is defined and education.bullet_points|length > 0$%
-    \begin{itemize}
-    %$ for bullet_point in education.bullet_points $%
-        \item $$bullet_point$$
-    %$ endfor $%
-    \end{itemize}
-%$ endif $%
+    %$ if education.bullet_points is defined and education.bullet_points|length > 0$%
+        \begin{itemize}
+        %$ for bullet_point in education.bullet_points $%
+            \item $$bullet_point$$
+        %$ endfor $%
+        \end{itemize}
+    %$ endif $%
 
-\divider
+        %$if not loop.last$%
+        \divider
+        %$ endif $%
 
 %$ endfor $%
+
 
 \cvsection{Languages}
 
 %$ for language in languages $%
-\cvskill{$$language.language$$}{$$language.proficiency$$}
-\divider
+    \cvskill{$$language.language$$}{$$language.proficiency$$}
 %$ endfor $%
 
 \end{paracol}
