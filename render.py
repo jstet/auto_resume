@@ -21,7 +21,7 @@ name = data["name"]
 console.print(f"Hello {name}, this script will now autogenerate your CV.")
 
 
-environment = Environment(loader=FileSystemLoader("./"), trim_blocks=True, block_start_string='@@',block_end_string='@@',variable_start_string='@=', variable_end_string='=@')
+environment = Environment(loader=FileSystemLoader("./"), trim_blocks=True, block_start_string='%$',block_end_string='$%',variable_start_string='$$', variable_end_string='$$')
 
 template = environment.get_template(template_file)
 

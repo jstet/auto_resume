@@ -1,5 +1,33 @@
 {
     "name": "Jonas Stettner",
-    "tagline" : "M.A. Social and Economic Data Science",
-    "photo_file": "photo"
+    "tagline": "Graduate Student in Social and Economic Data Science",
+    "photo_file": "photo",
+    "email": "mail@jstet.net",
+    "homepage": "jstet.net",
+    "twitter": "@jstet_net",
+    "github": "jstet",
+    "cvevents": [
+        {
+            "position": "Student Assistant",
+            "place": "University of Konstanz",
+            "time": "February 2022 - ongoing",
+            "location": "Konstanz",
+            "bullet_points": [
+                "Programming online experiments with OTree",
+                "Setting up servers for online experiments",
+                "Working with Pupil Labs Core Eyetracker"
+            ]
+        },
+        {
+            "position": "Student Assistant",
+            "place": "University of Konstanz",
+            "time": "February 2022 - ongoing",
+            "location": "Konstanz",
+            "bullet_points": [
+                "Programming online experiments with OTree",
+                "Setting up servers for online experiments",
+                "Working with Pupil Labs Core Eyetracker"
+            ]
+        }
+    ]
 }
