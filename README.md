@@ -1,6 +1,8 @@
 # Render a nice looking LaTeX resume with data you enter into a simple JSON file. 
 
-Resumes contain information that is well suited for compact data formats such as JSON. Instead of relearning LaTeX and browsing a complex .tex file every time your resume needs updating, this script allows you to quickly edit a neat .json file and then render your resume to .pdf. The script was written with python and uses of jinja2 and pandoc.
+Resumes contain information that is well suited for compact data formats such as JSON. Instead of relearning LaTeX and browsing a complex .tex file every time your resume needs updating, this script allows you to quickly edit a neat .json file and then render your resume to .pdf. 
+
+The script was written with python and uses a [premade LaTex template](https://github.com/liantze/AltaCV).
 
 ## Setup
 
@@ -18,7 +20,11 @@ Whether you set up an evironment for this is your choice. You can install the pa
 ```
 python -m pip install -r requirements.txt
 ```
-### C: Render the PDF 
+### C: Make sure the pdflatex utility is installed on your OS
+
+On Arch you can install the package "texlive-most" for example.
+
+### D: Render the PDF 
 
 ```
 python render.py
