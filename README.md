@@ -20,7 +20,7 @@ Whether you set up an evironment for this is your choice. You can install the pa
 ```
 python -m pip install -r requirements.txt
 ```
-### C: Make sure the pdflatex utility is installed on your OS
+### C: Make sure pandoc and the pdflatex utility is installed on your OS
 
 On Arch you can install the package "texlive-most" for example.
 
