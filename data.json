@@ -8,9 +8,18 @@
     "github": "jstet",
     "work_history": [
         {
+            "position": "Working Student",
+            "place": "CorrelAid e.V.",
+            "time": "November 2022 - ongoing",
+            "bullet_points": [
+                "Developing the new CorrelAid website",
+                "Infrastructure management"
+            ]
+        },
+        {
             "position": "Student Assistant",
             "place": "University of Konstanz",
-            "time": "February 2022 - ongoing",
+            "time": "February 2022 - August 2023",
             "bullet_points": [
                 "Programming online experiments with OTree",
                 "Setting up servers for online experiments",
@@ -37,7 +46,7 @@
         {
             "position": "Local Chapter Head",
             "place": "CorrelAidX Konstanz",
-            "time": "June 2022 - ongoing",
+            "time": "June 2022 - February 2023",
             "bullet_points": []
         }
     ],
@@ -89,12 +98,12 @@
         {   
             "fa": "faServer",
             "kind": "Server and Cloud Administration",
-            "list": "Ansible, Docker"
+            "list": "Terraform, Ansible, Docker"
         },
         {   
             "fa": "faPlus",
             "kind": "Others",
-            "list": "Bash"
+            "list": "Bash, Directus (Data Platform), Dagster (Data Pipeline Builder)"
         }
     ],
     "languages": [
