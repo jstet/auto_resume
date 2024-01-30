@@ -9,6 +9,14 @@
     "work_history": [
         {
             "position": "Working Student",
+            "place": "Aktion Pink e.V.",
+            "time": "November 2023 - ongoing",
+            "bullet_points": [
+                "Backend Development"
+            ]
+        },
+        {
+            "position": "Working Student",
             "place": "CorrelAid e.V.",
             "time": "November 2022 - ongoing",
             "bullet_points": [
@@ -34,12 +42,6 @@
                 "Assisting  Prof. Dr. Helga Weisz in her work for the International Resource Panel",
                 "Writing research reports"
             ]
-        },
-        {
-            "position": "Intern",
-            "place": "Potsdam Institute for Climate Impact Research",
-            "time": "October 2020 - November 2021",
-            "bullet_points": []
         }
     ],
     "volunteering": [
@@ -55,6 +57,12 @@
             "degree": "M.Sc. Social and Economic Data Science",
             "place": "University of Konstanz",
             "time": "WS 2021 - ongoing",
+            "bullet_points": []
+        },
+        {
+            "degree": "Exchange",
+            "place": "University of British Columbia",
+            "time": "Winter Term 2023",
             "bullet_points": []
         },
         {
@@ -93,7 +101,7 @@
         {   
             "fa": "faWindowMaximize[regular] ",
             "kind": "Web Development",
-            "list": "Svelte, SvelteKit, OTree"
+            "list": "SvelteKit, OTree"
         },
         {   
             "fa": "faServer",
