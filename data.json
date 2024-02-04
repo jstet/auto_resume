@@ -8,7 +8,7 @@
     "work_history": [
         {
             "position": "Working Student",
-            "place": "Aktion Pink e.V.",
+            "place": "Aktion Pink Deutschland e.V.",
             "time": "November 2023 - ongoing",
             "bullet_points": [
                 "Backend Development"
@@ -44,6 +44,12 @@
         }
     ],
     "volunteering": [
+        {
+            "position": "Volunteer Developer",
+            "place": "UBC Learning Exchange - Linkvan",
+            "time": "Winter Term 2023",
+            "bullet_points": []
+        },
         {
             "position": "Local Chapter Head",
             "place": "CorrelAidX Konstanz",

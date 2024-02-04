@@ -89,26 +89,6 @@
     %$ endif $%
 %$ endfor $%
 
-\cvsection{Volunteering}
-
-%$ for volunteer in volunteering $%
-
-    \cvevent{$$volunteer.position$$}{$$volunteer.place$$}{$$volunteer.time$$}{}
-
-    %$ if volunteer.bullet_points is defined and volunteer.bullet_points|length > 0$%
-        \begin{itemize}
-        %$ for bullet_point in volunteer.bullet_points $%
-            \item $$bullet_point$$
-        %$ endfor $%
-        \end{itemize}
-    %$ endif $%
-
-    %$if not loop.last$%
-    \divider
-    %$ endif $%
-
-%$ endfor $%
-
 \cvsection{Skills}
 %$ for skill in skills $%
     \cvachievement{\$$skill.fa$$}{$$skill.kind$$}{$$skill.list$$}
@@ -118,6 +98,11 @@
     %$ endif $%
     
 %$ endfor $%
+\divider 
+%$ for language in languages $%
+  \cvskill{$$language.language$$}{$$language.proficiency$$}
+%$ endfor $%
+
 
 \switchcolumn
 
@@ -141,12 +126,26 @@
 
 %$ endfor $%
 
+\cvsection{Volunteering}
 
-\cvsection{Languages}
+%$ for volunteer in volunteering $%
 
-%$ for language in languages $%
-    \cvskill{$$language.language$$}{$$language.proficiency$$}
+    \cvevent{$$volunteer.position$$}{$$volunteer.place$$}{$$volunteer.time$$}{}
+
+    %$ if volunteer.bullet_points is defined and volunteer.bullet_points|length > 0$%
+        \begin{itemize}
+        %$ for bullet_point in volunteer.bullet_points $%
+            \item $$bullet_point$$
+        %$ endfor $%
+        \end{itemize}
+    %$ endif $%
+
+    %$if not loop.last$%
+    \divider
+    %$ endif $%
+
 %$ endfor $%
+
 
 \end{paracol}
 
