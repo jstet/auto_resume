@@ -13,13 +13,11 @@ I only tested the setup on linux, so no guarantees this will work for other OS.
 
 There is an example .json file included in this repo (aka info about me). Edit the existing values or add new objects (in the demonstrated format) as you wish.
 
-### B: Install the packages listed in requirements.txt
+### B: Install the packages in the uv project
 
-Whether you set up an evironment for this is your choice. You can install the packages with this command for example:
+Whether you set up an evironment for this is your choice. You can install the packages with uv
 
-```
-python -m pip install -r requirements.txt
-```
+
 ### C: Make sure pandoc and the pdflatex utility is installed on your OS
 
 On Arch you can install the package "texlive-most" for example.

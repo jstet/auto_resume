@@ -1,11 +1,16 @@
 {
     "name": "Jonas Stettner",
-    "tagline": "Graduate Student in Social Data Science",
+    "tagline": "Full Stack Data Scientist",
     "photo": "photo",
     "email": "mail@jstet.net",
     "homepage": "jstet.net",
     "github": "jstet",
     "work_history": [
+        {
+            "position": "CDL Team and Digital Infrastructure",
+            "place": "CorrelAid e.V.",
+            "time": "October - ongoing"
+        },
         {
             "position": "Working Student",
             "place": "Aktion Pink Deutschland e.V.",
@@ -19,7 +24,7 @@
             "place": "CorrelAid e.V.",
             "time": "November 2022 - ongoing",
             "bullet_points": [
-                "Developing the new CorrelAid website",
+                "Developing the CorrelAid website",
                 "Infrastructure management"
             ]
         },
@@ -61,8 +66,8 @@
         {
             "degree": "M.Sc. Social and Economic Data Science",
             "place": "University of Konstanz",
-            "time": "WS 2021 - ongoing",
-            "bullet_points": []
+            "time": "WS 2021 - SS 2024",
+            "bullet_points": ["Thesis: \"FOIled Transparency - A Foundation for Assessing Non-Compliance with Freedom of Information in Germany\""]
         },
         {
             "degree": "Exchange",
