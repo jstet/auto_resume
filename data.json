@@ -67,7 +67,7 @@
             "degree": "M.Sc. Social and Economic Data Science",
             "place": "University of Konstanz",
             "time": "WS 2021 - SS 2024",
-            "bullet_points": ["Thesis: \"FOIled Transparency - A Foundation for Assessing Non-Compliance with Freedom of Information in Germany\""]
+            "bullet_points": ["Final Grade: 1.8", "Thesis: \"FOIled Transparency - A Foundation for Assessing Non-Compliance with Freedom of Information in Germany\""]
         },
         {
             "degree": "Exchange",
@@ -106,7 +106,7 @@
         {
             "fa": "faKeyboard",
             "kind": "Programming Languages",
-            "list": "Python, JavaScript, R, SQL"
+            "list": "Python, JavaScript, R, SQL, Bash"
         },
         {   
             "fa": "faWindowMaximize[regular] ",
@@ -116,12 +116,12 @@
         {   
             "fa": "faServer",
             "kind": "Server and Cloud Administration",
-            "list": "Terraform, Ansible, Docker"
+            "list": "OpenTofu/Terraform, Ansible, Docker"
         },
         {   
             "fa": "faPlus",
             "kind": "Others",
-            "list": "Bash, Directus (Data Platform), Dagster (Data Pipeline Builder)"
+            "list": "Directus, Haystack, dlt, dbt, Dagster, Metabase, Polars, Tidyverse"
         }
     ],
     "languages": [

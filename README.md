@@ -13,10 +13,9 @@ I only tested the setup on linux, so no guarantees this will work for other OS.
 
 There is an example .json file included in this repo (aka info about me). Edit the existing values or add new objects (in the demonstrated format) as you wish.
 
-### B: Install the packages in the uv project
+### B: Install pdflatex and the packages in the uv project
 
 Whether you set up an evironment for this is your choice. You can install the packages with uv
-
 
 ### C: Make sure pandoc and the pdflatex utility is installed on your OS
 
@@ -25,7 +24,7 @@ On Arch you can install the package "texlive-most" for example.
 ### D: Render the PDF 
 
 ```
-python render.py
+uv run python render.py
 ```
 
 ## Customization
