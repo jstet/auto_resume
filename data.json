@@ -3,7 +3,6 @@
     "tagline": "Full Stack Data Scientist",
     "photo": "photo",
     "email": "mail@jstet.net",
-    "homepage": "jstet.net",
     "github": "jstet",
     "work_history": [
         {
@@ -121,7 +120,7 @@
         {   
             "fa": "faPlus",
             "kind": "Others",
-            "list": "Directus, Haystack, dlt, dbt, Dagster, Metabase, Polars, Tidyverse"
+            "list": "Directus, Metabase, Polars, Tidyverse"
         }
     ],
     "languages": [
