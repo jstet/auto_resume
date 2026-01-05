@@ -6,9 +6,14 @@
     "github": "jstet",
     "work_history": [
         {
-            "position": "Civic Data Lab Team",
+            "position": "Civic Data Lab",
             "place": "CorrelAid e.V.",
-            "time": "October 2024 - ongoing"
+            "time": "October 2024 - ongoing",
+            "bullet_points": [
+                "Providing consulting to non-profit organizations",
+                "Designing and implementing data solutions",
+                "Cloud infrastructure management"
+            ]
         },
         {
             "position": "Working Student",
@@ -24,7 +29,7 @@
             "time": "November 2022 - September 2024",
             "bullet_points": [
                 "Developing the CorrelAid website",
-                "Infrastructure management"
+                "Cloud Infrastructure management"
             ]
         },
         {
@@ -105,17 +110,17 @@
         {
             "fa": "faKeyboard",
             "kind": "Programming Languages",
-            "list": "Python, JavaScript, R, SQL, Bash"
+            "list": "Python, JavaScript, R, SQL, Bash, Go"
         },
         {   
             "fa": "faWindowMaximize[regular] ",
             "kind": "Web Development",
-            "list": "SvelteKit, OTree"
+            "list": "Astro, Svelte"
         },
         {   
             "fa": "faServer",
             "kind": "Server and Cloud Administration",
-            "list": "OpenTofu/Terraform, Ansible, Docker"
+            "list": "OpenTofu/Terraform, Ansible, Docker, Coolify"
         },
         {   
             "fa": "faPlus",
